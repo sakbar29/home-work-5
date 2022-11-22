@@ -1,13 +1,21 @@
 body {
-    background: #06bdc1;
-    background: -webkit-radial-gradient(center, #06bdc1,#68469f);
-    background: -moz-radial-gradient(center, #06bdc1, #68469f);
-    background: -radial-gradient(ellipse at center,#06bdc1,#68469f);
+    background: #c17606;
+    background: -webkit-radial-gradient(center, #6950a1,#68469f);
+    background: -moz-radial-gradient(center, #06c147, #68469f);
+    background: -radial-gradient(ellipse at center,#1606c1,#68469f);
+    
+}
+main{
+    
+    background: url(anime/pexels-andy-vu-3484061.jpg);
+    background-repeat: no-repeat; 
+    background-size: 1540px 730px;
 }
 
 .container{
     width: 1280px;
     margin: auto;
+    
 }
 
 .quotes-container{
@@ -29,8 +37,8 @@ body {
     padding: 0 25px;
     color: grey;
     border-radius: 10px;
-    background-color: #f4edea;
-    border: 10px solid #06bdc1;
+    background-color: #bedade63;
+    border: 10px solid #ddc54a;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.9);
 }
 
@@ -43,6 +51,17 @@ body {
     font-size: 2rem;
     color: palevioletred;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.photo_music{
+    position: absolute;
+    margin-top: 600px;
+    right: 40px;
+}
+.photo{
+    width: 80px;
+    height: 75px;
+    margin-bottom: 35px;
+    padding-right: 5px;
 }
 
 .quote-btn{
